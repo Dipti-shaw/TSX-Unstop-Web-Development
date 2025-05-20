@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: bisque;
+    color:brown;
+    padding: 30px;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a
+{
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main{
+    padding: 30px;
+    background-color:  #ffc6c6;
+}
+
+article{
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+footer{
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding:10px;
+    margin-top: 20px;
+}
